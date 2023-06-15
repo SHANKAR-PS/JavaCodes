@@ -2,7 +2,7 @@ import java.util.*;
 public class power {
     public static void main(String[] args) {
         //power of the number
-        System.out.println("power of the number:\n give 2 inputs(number and power)");
+        System.out.println("power of the number:\ngive 2 inputs(number and power)");
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         int power = sc.nextInt();
@@ -14,7 +14,7 @@ public class power {
             for(int i =0;i<power;i++){
                 num *= number;
             }
-            System.out.println("the power is "+num+"  avlo than...");
+            System.out.println(number+" power "+power+" is "+num+"  avlo than...");
         }
     }
 }
