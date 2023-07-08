@@ -7,7 +7,7 @@ public class power {
         int number = sc.nextInt();
         int power = sc.nextInt();
         int num=1;
-        if (number == 0 && power == 0){
+        if (power == 0){
             System.out.println("1");
         }
         else{
