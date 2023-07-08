@@ -25,7 +25,7 @@ public class stringPlay2 {
         System.out.println(rev);
 
         //checks the palindrome or not
-        if(str.contentEquals(rev)){ //contentEquals method is used to  compare
+        if(str.contentEquals(rev)){ //contentEquals method is used to  compare the string(str) and stringBuilder(rev)
             System.out.println("palindrome");
         }
         else{
