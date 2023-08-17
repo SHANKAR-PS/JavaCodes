@@ -21,7 +21,9 @@ public class FibonacciSeries {
                 s = m;
                 System.out.print(" " + m + " ");
             }
+
             System.out.println();
+            System.out.println(m);
             System.out.println(f + s);
 
         }
