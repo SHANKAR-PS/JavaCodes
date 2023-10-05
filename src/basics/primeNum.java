@@ -1,15 +1,16 @@
 package basics;
-
+//Program that checks the entered number is prime or not
 import java.util.Scanner;
 
 
 public class primeNum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number to check prime : ");
+    System.out.println("Enter the number to check prime : ");
         int n = sc.nextInt();
-        boolean b = checkPrime(n);
-        if(b==true){
+        primeNum pn = new primeNum();
+        boolean b = pn.checkPrime(n);
+        if(b){
             System.out.println(n+" is Prime");
         }
         else{
@@ -17,7 +18,7 @@ public class primeNum {
         }
 
     }
-    static boolean checkPrime(int n){
+    public boolean checkPrime(int n){
         if(n<=0){
             return false;
         }
