@@ -7,7 +7,7 @@ public class armstrongNum {
         int res=0;
         while(temp!=0) {
             int rem=temp%10;
-            res+=Math.pow(rem, nod);
+            res+=(int)Math.pow(rem, nod);
             temp/=10;
         }
         System.out.println(res);
