@@ -19,7 +19,6 @@ public class caseFinder {
             else{
                 System.out.println("not a alphabet");
             }
-            System.out.println("avlo than...");
 
         }
 
